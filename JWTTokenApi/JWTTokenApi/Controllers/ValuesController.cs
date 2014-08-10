@@ -1,39 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Configuration;
+using System.IdentityModel.Tokens;
 using System.Web.Http;
+using JWTTokenApi.Helper;
 
 namespace JWTTokenApi.Controllers
 {
-  public class ValuesController : ApiController
+  public class ValuesController : BaseController
   {
-    // GET api/values
-    public IEnumerable<string> Get()
+    private readonly CertificateReader _certificateReader;
+    private readonly TokenCreator _tokenCreator;
+    private readonly TokenValidator _tokenValidator;
+    private readonly JwtSecurityTokenHandler _jwtSecurityTokenHandler;
+
+
+    public ValuesController()
     {
-      return new string[] { "value1", "value2" };
+      _jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+      _tokenCreator = new TokenCreator();
+      _certificateReader = new CertificateReader();
+      _tokenValidator = new TokenValidator(_jwtSecurityTokenHandler, _certificateReader);
     }
 
-    // GET api/values/5
-    public string Get(int id)
+    [ActionName("Token")]
+    public string Post(string username,string password)
     {
-      return "value";
+      if (username == string.Empty)
+        return string.Empty;
+
+      if (password == string.Empty)
+        return string.Empty;
+
+      if (username != ConfigurationManager.AppSettings["ValidUser"])//this is due to authentication layer in this demo
+        return string.Empty;
+
+      var cert = _certificateReader.ReadCertificate();
+      return _tokenCreator.CreateTokenWithX509SigningCredentials(cert, username);
     }
 
     // POST api/values
-    public void Post([FromBody]string value)
+    [System.Web.Http.ActionName("Validate")]
+    public bool Post([FromBody]string value)
     {
-    }
-
-    // PUT api/values/5
-    public void Put(int id, [FromBody]string value)
-    {
-    }
-
-    // DELETE api/values/5
-    public void Delete(int id)
-    {
+      return _tokenValidator.Validate(value) != null;
     }
   }
 }

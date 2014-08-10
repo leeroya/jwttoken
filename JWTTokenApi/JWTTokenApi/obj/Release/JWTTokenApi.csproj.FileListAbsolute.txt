@@ -29,3 +29,39 @@ c:\users\leeroya\documents\visual studio 2013\Projects\JWTTokenApi\JWTTokenApi\b
 c:\users\leeroya\documents\visual studio 2013\Projects\JWTTokenApi\JWTTokenApi\bin\Antlr3.Runtime.pdb
 c:\users\leeroya\documents\visual studio 2013\Projects\JWTTokenApi\JWTTokenApi\obj\Release\JWTTokenApi.dll
 c:\users\leeroya\documents\visual studio 2013\Projects\JWTTokenApi\JWTTokenApi\obj\Release\JWTTokenApi.pdb
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\JWTTokenApi.dll.config
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\JWTTokenApi.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\JWTTokenApi.pdb
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Antlr3.Runtime.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Newtonsoft.Json.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Net.Http.Formatting.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Helpers.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Http.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Http.WebHost.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Mvc.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Optimization.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Razor.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Thinktecture.IdentityModel.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\WebGrease.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Newtonsoft.Json.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Net.Http.Formatting.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Helpers.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Http.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Http.WebHost.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Mvc.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Optimization.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.Razor.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Thinktecture.IdentityModel.pdb
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Thinktecture.IdentityModel.xml
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\bin\Antlr3.Runtime.pdb
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\obj\Release\JWTTokenApi.dll
+C:\Users\leeroya\Documents\GitHub\Shell\JWTTokenApi\JWTTokenApi\obj\Release\JWTTokenApi.pdb
